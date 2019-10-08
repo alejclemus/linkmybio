@@ -11,7 +11,7 @@ with open("links.yaml", 'r',encoding='utf-8') as stream:
         data = yaml.safe_load(stream)
     except yaml.YAMLError as exc:
         print(exc)
-        
+ 
 @app.route("/")
 def home():
     return render_template('index.html', data=data)  

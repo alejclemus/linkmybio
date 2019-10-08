@@ -13,23 +13,23 @@ shortbio: "Hi! I'm a Computer Science student, animal lover and "
 # - description: this will appear as the text in the button of your link
 
 links:
-    - facebook:
-        enable: True
-        link: https://www.facebook.com/alejandra.lemusdelcompare
-        description: "Add me facebook"
-    - instagram:
-        enable: True
-        link: https://url_to_your.instagram.profile
-        description: "Follow me on instagram"
-    - twitter:
-        enable: False
-        link: https://twitter.com/alealelem
-        description: "Follow me on twitter"
-    - pinterest:
-        enable: True
-        link: https://www.pinterest.es/alejdelcomp/
-        description: "Check my pinterest"
-    - github:
-        enable: True
-        link: https://github.com/alejclemus
-        description: "Follow me on github"
+    facebook:
+        - True
+        - https://www.facebook.com/alejandra.lemusdelcompare
+        - "Add me facebook"
+    instagram:
+        - True
+        - https://url_to_your.instagram.profile
+        - Follow me on instagram
+    twitter:
+        - True
+        - https://twitter.com/alealelem
+        - Follow me on twitter
+    pinterest:
+        - True
+        - https://www.pinterest.es/alejdelcomp/
+        - Check my pinterest
+    github:
+        - True
+        - https://github.com/alejclemus
+        - Follow me on github
