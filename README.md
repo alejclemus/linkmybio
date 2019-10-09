@@ -91,7 +91,7 @@ See you can add any style to your own project. These are only ideas.
 # Usage
 
 > docker build --rm -f "dockerFile" -t name:latest .
-> docker run -it -p 5000:5000 name:latest
+docker run -it -p 5000:5000 name:latest
 
 
 # Extras:
