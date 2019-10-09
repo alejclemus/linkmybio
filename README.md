@@ -93,7 +93,7 @@ See you can add any style to your own project. These are only ideas.
 ```bash
 git clone https://github.com/alejclemus/linkmybio.git
 cd linkmybio
-pyhton bio.py
+phyton bio.py
 
 ```
 
