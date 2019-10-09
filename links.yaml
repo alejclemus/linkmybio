@@ -4,7 +4,7 @@ picture: "static/IMG_7128.jpg"
 # it will appear just below your picture.
 name: "Alejandra Lemus"
 # short auto biography about yourself
-shortbio: "Hi! I'm a Computer Science student, animal lover and "
+shortbio: "Hi! I'm a Computer Science student, animal lover and astrology enthusiast"
 
 # 'links' will be an array of any amount of links you want your followers to discover, notice that the name will be mere descriptive (it is not necesarily functional.)
 # each link will have 3 attributes:
@@ -19,7 +19,7 @@ links:
         - "Add me facebook"
     instagram:
         - True
-        - https://url_to_your.instagram.profile
+        - https://www.instagram.com/alej.lemus/?hl=es-la
         - Follow me on instagram
     twitter:
         - True
