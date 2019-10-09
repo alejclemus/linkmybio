@@ -92,12 +92,11 @@ See you can add any style to your own project. These are only ideas.
 
 ```bash
 docker build --rm -f "dockerFile" -t name:latest .
-
 docker run -it -p 5000:5000 name:latest
 
 
 
-# Extras:
+# Extras
 - You can **add** any other attribute you like in order to add more functionalities.
 - Create a "timer" per link, in a new attribute called `until` you will put a date `2019/9/30 20:30:00` which will mean that this specific link will only appear until that date, and after that date it will disappear.
 - Deploy this to real life (AWS lambda, Google Cloud Functions, Heroku)
