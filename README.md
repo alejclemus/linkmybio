@@ -91,8 +91,9 @@ See you can add any style to your own project. These are only ideas.
 # Usage
 
 ```bash
-docker build --rm -f "dockerFile" -t name:latest .
-docker run -it -p 5000:5000 name:latest
+git clone https://github.com/alejclemus/linkmybio.git
+cd linkmybio
+pyhton bio.py
 
 ```
 

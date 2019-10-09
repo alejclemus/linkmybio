@@ -1,12 +1,10 @@
-FROM python:3.6-alpine
-
-ENV DEVELOPER="Alejandra Lemus"
+FROM ubuntu:latest
+RUN apt-get update -y
+RUN apt-get install -y python-pip python-dev build-essential
 ADD . /bioapp
 COPY bio.py /bioapp
 COPY templates /bioapp/templates
 WORKDIR /bioapp
 RUN pip install -r requirements.txt
-
-EXPOSE 5000
-
-CMD ["python", "bio.py"]
+ENTRYPOINT ["python"]
+CMD ["bio.py"]

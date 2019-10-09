@@ -1,9 +1,0 @@
-build:
-  docker:
-    web: dockerFile
-run:
-  web: bundle exec puma -C config/puma.rb
-  worker:
-    command:
-      - python bio.py
-    image: web

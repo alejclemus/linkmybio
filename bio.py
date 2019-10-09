@@ -20,4 +20,4 @@ if __name__ == "__main__":
     debug=False
     if environment == "development" or environment == "local":
         debug=True
-    app.run(host="0.0.0.0",debug=debug) # run the flask app
+    app.run(host="0.0.0.0",debug=debug, port=os.environ.get('PORT')) # run the flask app
